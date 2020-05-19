@@ -61,7 +61,7 @@ export default () => (
       。
     </p>
     <div>
-      <div>
+      <div className={styles.containers}>
         <Input placeholder="Basic usage" />
         <Anchor>
           <Link href="#demo1" title="Basic demo" />
